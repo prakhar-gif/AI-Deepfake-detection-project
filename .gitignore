@@ -1,0 +1,50 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Dataset
+dataset/
+ffpp_videos/
+
+# Uploaded files
+uploads/
+
+# Model weights
+*.pth
+*.pt
+*.onnx
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment/secrets
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# Python cache/testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp

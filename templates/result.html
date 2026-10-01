@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block content %}<div class="card center"><small>{{media_type}} • {{filename}}</small><h1>{{result.prediction}}</h1><div class="score">{{result.confidence}}%</div><p>{{result.details}}</p><div class="note">Confidence is a model estimate, not proof.</div><a class="button" href="/">Analyze another</a></div>{% endblock %}
